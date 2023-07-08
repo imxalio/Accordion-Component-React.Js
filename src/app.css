@@ -1,0 +1,32 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: 'Rubik', sans-serif;
+}
+
+.container {
+  width: 500px;
+  margin: 100px auto;
+  user-select: none;
+  color: #333;
+}
+
+.accordion-item {
+  margin-bottom: 2rem;
+  padding: 1rem 1.5rem;
+  box-shadow: 0 0.7rem 0.7rem rgba(0, 0, 0, 0.105);
+}
+
+.open {
+  border-top: 0.3rem solid rgb(0, 159, 48);
+}
+
+.open h1 {
+  color: rgb(0, 159, 48);
+}
